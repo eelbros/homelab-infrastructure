@@ -44,7 +44,8 @@ terraform init && terraform plan
 # Deploy Kubernetes resources
 kubectl apply -f kubernetes/k3s-cluster/monitoring/
 
-## 🛠️ Current Status
+```
+# 🛠️ Current Status
 
 ### Completed:
 - Proxmox hypervisor setup with VLAN configuration
