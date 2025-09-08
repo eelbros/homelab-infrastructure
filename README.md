@@ -43,3 +43,24 @@ terraform init && terraform plan
 
 # Deploy Kubernetes resources
 kubectl apply -f kubernetes/k3s-cluster/monitoring/
+
+## 🛠️ Current Status
+
+### Completed:
+- Proxmox hypervisor setup with VLAN configuration
+- k3s cluster deployment (1 master + 2 worker nodes)
+- SSH key authentication across all nodes
+- kubectl access from Management laptop (Arch Linux)
+- Network segmentation (Management: 192.168.2.0/24, Clients: 10.10.10.0/24, Lab: 10.10.20.0/24, IoT: 10.10.30.0/24)
+
+### Infrastructure:
+- **Proxmox Host**: pve (192.168.1.20)
+- **k3s-master01**: 10.10.20.20 (control plane)
+- **k3s-worker01**: 10.10.20.21
+- **k3s-worker02**: 10.10.20.22
+- **Template VM**: Clean Ubuntu 22.04 base
+
+## Next Steps:
+- [ ] Deploy monitoring stack (Prometheus/Grafana)
+- [ ] Add Talos base metal cluster
+- [ ] Implement GitOps with ArgoCD
