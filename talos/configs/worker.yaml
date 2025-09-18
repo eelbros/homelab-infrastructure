@@ -401,7 +401,7 @@ cluster:
         #     # URLs containing manifests to apply for the CNI.
         #     urls:
         #         - https://docs.projectcalico.org/archive/v3.20/manifests/canal.yaml
-    token: s4f31i.7j6lhbeblyvrog78 # The [bootstrap token](https://kubernetes.io/docs/reference/access-authn-authz/bootstrap-tokens/) used to join the cluster.
+    token: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx # The [bootstrap token](https://kubernetes.io/docs/reference/access-authn-authz/bootstrap-tokens/) used to join the cluster.
     # The base64 encoded root certificate authority used by Kubernetes.
     ca:
         crt: LS0tLS1CRUdJTiBDRVJUSUZJQ0FURS0tLS0tCk1JSUJpakNDQVRDZ0F3SUJBZ0lSQUtITERwMXJ2YUZUWFRoejdBWFBVQWt3Q2dZSUtvWkl6ajBFQXdJd0ZURVQKTUJFR0ExVUVDaE1LYTNWaVpYSnVaWFJsY3pBZUZ3MHlOVEE1TVRZeE9USTJNREZhRncwek5UQTVNVFF4T1RJMgpNREZhTUJVeEV6QVJCZ05WQkFvVENtdDFZbVZ5Ym1WMFpYTXdXVEFUQmdjcWhrak9QUUlCQmdncWhrak9QUU1CCkJ3TkNBQVRXODVFN1huQXlrVklQTGtUNVJ0VmN3eEw2U1NpNEVTWWE0N3dIZWUvWHFoR05TSzM2SlQ1dUFyazkKR0xCNS83V3EvWDkydDl1SHFjQWRPMXBieC8xWm8yRXdYekFPQmdOVkhROEJBZjhFQkFNQ0FvUXdIUVlEVlIwbApCQll3RkFZSUt3WUJCUVVIQXdFR0NDc0dBUVVGQndNQ01BOEdBMVVkRXdFQi93UUZNQU1CQWY4d0hRWURWUjBPCkJCWUVGRjZxdGY5UDNsZnBKcTFCclBtdzBqTXpjVzhYTUFvR0NDcUdTTTQ5QkFNQ0EwZ0FNRVVDSUhFcWZlRHAKMEIrSUUzUVBsZ2xkaUU2WXpJZTBoWm9QNUMvZ2RHeGQrcmVMQWlFQXFtRTZubFc1WFZxUXVWUGUzc1Ezd0xUTAp5TTZwWmlYdFcwQUVacExwTEZzPQotLS0tLUVORCBDRVJUSUZJQ0FURS0tLS0tCg==
