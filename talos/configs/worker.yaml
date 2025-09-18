@@ -4,7 +4,7 @@ persist: true
 # Provides machine specific configuration options.
 machine:
     type: worker # Defines the role of the machine within the cluster.
-    token: b7qltf.ihlyylmloqc3rigz # The `token` is used by a machine to join the PKI of the cluster.
+    token: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx # The `token` is used by a machine to join the PKI of the cluster.
     # The root certificate authority of the PKI.
     ca:
         crt: LS0tLS1CRUdJTiBDRVJUSUZJQ0FURS0tLS0tCk1JSUJQekNCOHFBREFnRUNBaEVBN3llRExMcWNubmNoUlh3U1B6SHpJakFGQmdNclpYQXdFREVPTUF3R0ExVUUKQ2hNRmRHRnNiM013SGhjTk1qVXdPVEUyTVRreU5qQXhXaGNOTXpVd09URTBNVGt5TmpBeFdqQVFNUTR3REFZRApWUVFLRXdWMFlXeHZjekFxTUFVR0F5dGxjQU1oQUVjRXdsYlZtTXZkY1g4L2g1cVdieG5hNnBNeTFxMmRtOWw5CldMQi9RMi9JbzJFd1h6QU9CZ05WSFE4QkFmOEVCQU1DQW9Rd0hRWURWUjBsQkJZd0ZBWUlLd1lCQlFVSEF3RUcKQ0NzR0FRVUZCd01DTUE4R0ExVWRFd0VCL3dRRk1BTUJBZjh3SFFZRFZSME9CQllFRkM1S3pEMlhvRWNYWjNzbApKQkd6S1pWQlRBdllNQVVHQXl0bGNBTkJBTjkyZ3JRVnllTHplSEdEdDFEaWgyTXJjdFNVbzFaZDUzekQ5RmhXCjJRT3dIcDl1TkJIQllpV0lhbmVzcDJGb2hYZWYxSHQvZjdjK0tJV09wbWs2bXc0PQotLS0tLUVORCBDRVJUSUZJQ0FURS0tLS0tCg==
