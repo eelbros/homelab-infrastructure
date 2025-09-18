@@ -1,0 +1,15 @@
+prometheus:
+  prometheusSpec:
+    retention: 30d
+    storageSpec:
+      volumeClaimTemplate:
+        spec:
+          storageClassName: local-path
+          resources:
+            requests:
+              storage: 20Gi
+
+grafana:
+  persistence:
+    enabled: true
+    size: 10Gi
